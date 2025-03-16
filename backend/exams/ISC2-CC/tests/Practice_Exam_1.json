@@ -1,0 +1,535 @@
+[
+    {
+        "question": "Which statement accurately describes the proper sequence of ISC2 phases in the data cycle process?",
+        "choices": {
+            "A": "Store, Create, Use, Share, Archive, and Destroy",
+            "B": "Use, Store, Create, Share, Archive, and Destroy",
+            "C": "Destroy, Store, Use, Share, Archive, and Create",
+            "D": "Create, Store, Use, Share, Archive, and Destroy"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "The correct sequence of the ISC2 phases in the data cycle process begins with 'Create,' where data is generated or collected. This is followed by 'Store,' where the data is saved for future use. Next is 'Use,' where the data is actively utilized for its intended purpose. After that, 'Share' allows for the distribution of data to authorized users. 'Archive' involves moving data that is no longer actively used to a secure storage location for long-term retention. Finally, 'Destroy' refers to the secure deletion of data that is no longer needed. The other options misplace these phases, disrupting the logical flow of data management."
+    },
+    {
+        "question": "Which of the following is an appropriate risk response when the identified risk exceeds the org risk tolerance?",
+        "choices": {
+            "A": "Risk Mitigation",
+            "B": "Risk Acceptance",
+            "C": "Risk Transfer",
+            "D": "Risk Avoidance"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "Risk avoidance is the most appropriate response when the identified risk exceeds the organization's risk tolerance. This strategy involves eliminating the risk entirely by changing plans or processes to avoid the risk altogether. For example, if a project poses too high a risk, the organization may choose not to pursue it. The other options\u2014risk mitigation (reducing the impact or likelihood of the risk), risk acceptance (acknowledging the risk without taking action), and risk transfer (shifting the risk to another party, such as through insurance)\u2014are more suitable for situations where the risk is within acceptable limits or can be managed, but not when it exceeds the organization's risk tolerance."
+    },
+    {
+        "question": "Which of the following is an appropriate risk response when the identified risk falls within the org risk tolerance?",
+        "choices": {
+            "A": "Risk Mitigation",
+            "B": "Risk Acceptance",
+            "C": "Risk Transfer",
+            "D": "Risk Avoidance"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "Risk acceptance is the appropriate response when the identified risk falls within the organization's risk tolerance. This means that the organization acknowledges the risk and decides to proceed without taking any specific action to mitigate it, as the potential impact is deemed manageable. This approach is often taken when the cost of mitigating the risk is higher than the potential loss. The other options\u2014risk mitigation (reducing the risk), risk transfer (shifting the risk to another party), and risk avoidance (eliminating the risk altogether)\u2014are more suitable for situations where the risk exceeds the organization's risk tolerance or requires proactive management."
+    },
+    {
+        "question": "Which of the following is an appropriate risk response that includes taking actions to prevent or reduce the possibility of Impact?",
+        "choices": {
+            "A": "Risk Mitigation",
+            "B": "Risk Acceptance",
+            "C": "Risk Transfer",
+            "D": "Risk Avoidance"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "Risk mitigation is the appropriate response that involves taking proactive steps to prevent or reduce the likelihood and impact of a risk. This can include implementing security controls, developing contingency plans, or enhancing processes to minimize potential threats. The goal of risk mitigation is to lower the risk to an acceptable level. The other options\u2014risk acceptance (acknowledging the risk without action), risk transfer (shifting the risk to another party), and risk avoidance (eliminating the risk entirely)\u2014do not focus on actively reducing the risk's likelihood or impact."
+    },
+    {
+        "question": "Which of the following is an appropriate risk response practice of passing the risk to another party, who will accept the financial impact of the harm?",
+        "choices": {
+            "A": "Risk Mitigation",
+            "B": "Risk Acceptance",
+            "C": "Risk Transfer",
+            "D": "Risk Avoidance"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "Risk transfer is the practice of passing the financial burden of a risk to another party, typically through contracts or insurance. This means that if the risk materializes, the other party will bear the financial consequences. The other options\u2014risk mitigation (reducing the risk), risk acceptance (acknowledging the risk without action), and risk avoidance (eliminating the risk)\u2014do not involve transferring the risk to another entity."
+    },
+    {
+        "question": "What is the primary objective of Risk Assessment[IR, AR, Eval]?",
+        "choices": {
+            "A": "Prioritize by risk level & used to inform risk response decision",
+            "B": "Identify threat events that could be produced by those sources",
+            "C": "Communicate risk assessment results to designated organizational stakeholders",
+            "D": "Mitigate the risk"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "The primary objective of risk assessment is to prioritize risks based on their level of impact and likelihood, which helps inform the organization's risk response decisions. By understanding which risks are most critical, organizations can allocate resources effectively to address them. The other options, while important aspects of risk management, do not capture the primary goal of risk assessment itself."
+    },
+    {
+        "question": "Which of the following options doesn't represent a type of control?",
+        "choices": {
+            "A": "Physical Control",
+            "B": "Technical Control",
+            "C": "Administrative Control",
+            "D": "Preventative Control"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "While 'Preventative Control' describes a function of controls aimed at preventing risks, it is not a recognized category of control like Physical, Technical, or Administrative controls. Physical controls involve tangible measures (like locks), technical controls involve technology (like firewalls), and administrative controls involve policies and procedures. Therefore, 'Preventative Control' is more of a descriptor of what controls do rather than a distinct type of control."
+    },
+    {
+        "question": "Which of the following is not one of the canon?",
+        "choices": {
+            "A": "Protect society, the common good, necessary public trust & confidence, and the infrastructures.",
+            "B": "Act honorably, honestly, justly, responsibly & legally",
+            "C": "Provide diligent & competent service to principals.",
+            "D": "Requires that we adhere, and be seem to adhere, to the highest ethical standards of behavior"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "The statement 'Requires that we adhere, and be seem to adhere, to the highest ethical standards of behavior' is not one of the recognized canons in professional ethics. The canons typically focus on specific principles such as protecting the public good, acting honorably, and providing competent service. While ethical behavior is important, this statement is 'Preamble' rather than a specific canon."
+    },
+    {
+        "question": "What factors need to be considered most when deciding to implement a control?",
+        "choices": {
+            "A": "Control cost vs Impact",
+            "B": "Confidentiality vs Integrity",
+            "C": "Eliminate risk",
+            "D": "Cost benefit analysis"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "When deciding to implement a control, the most critical factors to consider are the cost of the control versus its potential impact on risk reduction. This helps ensure that resources are allocated effectively and that the benefits of the control justify its costs. While cost-benefit analysis is also important, it is a broader concept that encompasses various factors, including cost vs. impact."
+    },
+    {
+        "question": "Which type of control is introduced in an org to direct an employee's behavior?",
+        "choices": {
+            "A": "Administrative Controls",
+            "B": "Physical Controls",
+            "C": "Technical Controls",
+            "D": "Preventative Controls"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "Administrative controls are policies and procedures implemented within an organization to guide and direct employee behavior. These controls include training, guidelines, and rules that help ensure compliance with organizational standards. Physical controls involve tangible security measures, technical controls involve technology-based solutions, and preventative controls focus on preventing risks rather than directing behavior."
+    },
+    {
+        "question": "What is the primary purpose of a Business Continuity plan in the enterprise?",
+        "choices": {
+            "A": "Provides procedures for sustaining mission/business operations while recovering from a significant disruption.",
+            "B": "Provides procedures for disseminating internal & external communications.",
+            "C": "Provides procedures for mitigating & correcting a cyber attack.",
+            "D": "Provides procedures for relocating info sys operations to an alternate location."
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "The primary purpose of a Business Continuity Plan (BCP) is to ensure that an organization can continue its essential functions during and after a significant disruption. This includes maintaining operations, protecting assets, and ensuring the safety of personnel. While the other options are important aspects of overall risk management and response, they do not capture the core objective of a BCP."
+    },
+    {
+        "question": "In a scenario where multiple documents are being reviewed (an Audit), which one of them is not mandatory for inclusion?",
+        "choices": {
+            "A": "Policy",
+            "B": "Procedure",
+            "C": "Standard",
+            "D": "Guideline"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "In an audit scenario, policies, procedures, and standards are typically mandatory documents that outline the organization's requirements and expectations. Guidelines, on the other hand, are recommendations that provide additional context or advice but are not mandatory for compliance. Therefore, while guidelines can be useful, they are not essential for inclusion in an audit."
+    },
+    {
+        "question": "Proper documentation of evidence is important to support any future investigations or legal proceedings. In which stage of the incident management process must we acquire, preserve, secure, and document evidence?",
+        "choices": {
+            "A": "Detection & Analysis",
+            "B": "Preparation",
+            "C": "Containment, Eradication, and Recovery",
+            "D": "Post-Incident Activity"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "During the 'Containment, Eradication, and Recovery' stage of the incident management process, it is crucial to acquire, preserve, secure, and document evidence related to the incident. This ensures that all relevant information is available for future investigations and legal proceedings. The other stages focus on different aspects of incident management, such as identifying the incident or preparing for potential incidents."
+    },
+    {
+        "question": "In which stage of the incident management process do we determine whether an incident has occurred?",
+        "choices": {
+            "A": "Detection & Analysis",
+            "B": "Preparation",
+            "C": "Containment, Eradication, and Recovery",
+            "D": "Post-Incident Activity"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "The 'Detection & Analysis' stage is where the organization determines whether an incident has occurred. This involves monitoring systems, analyzing alerts, and investigating anomalies to confirm the presence of an incident. The other stages focus on preparation, response, and post-incident review rather than the initial detection and analysis of incidents."
+    },
+    {
+        "question": "Which phase of the incident response process helps us to improve security measures and the incident handling process?",
+        "choices": {
+            "A": "Detection & Analysis",
+            "B": "Preparation",
+            "C": "Containment, Eradication, and Recovery",
+            "D": "Post-Incident Activity"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "The 'Post-Incident Activity' phase is critical for reviewing and analyzing the incident response process after an incident has been resolved. This phase helps organizations identify lessons learned, improve security measures, and refine the incident handling process for future incidents. The other phases focus on immediate response and detection rather than long-term improvements."
+    },
+    {
+        "question": "Which type of Access Control leaves a certain amount of Access Control to the discretion of the object's owner or anyone else authorized to control the object's access?",
+        "choices": {
+            "A": "DAC",
+            "B": "NDAC",
+            "C": "MAC",
+            "D": "RBAC"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "Discretionary Access Control (DAC) allows the owner of an object (such as a file or resource) to determine who has access to it. This means that the owner can grant or revoke access rights at their discretion. In contrast, Mandatory Access Control (MAC) enforces access policies set by a central authority, while Role-Based Access Control (RBAC) assigns access based on user roles, and NDAC is not a standard term in access control."
+    },
+    {
+        "question": "Which type of access control system enforces the system's security policy through the use of security labels?",
+        "choices": {
+            "A": "DAC",
+            "B": "NDAC",
+            "C": "MAC",
+            "D": "RBAC"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "Mandatory Access Control (MAC) enforces security policies through the use of security labels assigned to both subjects (users) and objects (resources). Access decisions are made based on these labels, which define the level of access permitted. This is in contrast to Discretionary Access Control (DAC), where access is determined by the owner, and Role-Based Access Control (RBAC), which is based on user roles."
+    },
+    {
+        "question": "Which principle addresses infosec strategy integrating people, tech, and operations capabilities to establish variable barriers across multiple missions of the org?",
+        "choices": {
+            "A": "Separation of Duties",
+            "B": "Principle of least privilege",
+            "C": "Defense in Depth",
+            "D": "Privilege Function"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "The principle of Defense in Depth involves implementing multiple layers of security controls and measures to protect an organization's assets. This strategy integrates people, technology, and operational capabilities to create variable barriers against threats, ensuring that if one layer fails, others remain in place. The other options focus on specific aspects of security but do not encompass the holistic approach of Defense in Depth."
+    },
+    {
+        "question": "Which of the following principles dictates that each task, process, or user is granted the minimum rights required to perform its job?",
+        "choices": {
+            "A": "Separation of Duties",
+            "B": "Principle of least privilege",
+            "C": "Defense in Depth",
+            "D": "Privilege Function"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "The Principle of Least Privilege dictates that users, processes, and systems should only have the minimum level of access necessary to perform their functions. This reduces the risk of accidental or malicious misuse of privileges. In contrast, Separation of Duties involves dividing responsibilities to prevent fraud or error, while Defense in Depth is a broader security strategy."
+    },
+    {
+        "question": "What protocol must be utilized for remotely managing a firewall?",
+        "choices": {
+            "A": "Telnet",
+            "B": "FTP",
+            "C": "SSH",
+            "D": "HTTP"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "SSH (Secure Shell) is the preferred protocol for securely managing a firewall remotely. It provides encrypted communication, ensuring that sensitive data, such as login credentials and configuration commands, are protected from eavesdropping. In contrast, Telnet and HTTP transmit data in plaintext, making them vulnerable to interception, while FTP is primarily used for file transfers and is not suitable for secure management."
+    },
+    {
+        "question": "Which solution monitors the characteristics of a single host and the events occurring within that host for suspicious activity?",
+        "choices": {
+            "A": "HIDS",
+            "B": "NIDS",
+            "C": "SIEM",
+            "D": "Antivirus"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "HIDS (Host-based Intrusion Detection System) is designed to monitor and analyze the activities and characteristics of a single host for suspicious behavior. It can detect unauthorized access, file changes, and other anomalies specific to that host. NIDS (Network-based Intrusion Detection System) monitors network traffic, while SIEM (Security Information and Event Management) aggregates and analyzes data from multiple sources, and antivirus software focuses on detecting and removing malware."
+    },
+    {
+        "question": "Which monitors network traffic for particular network segments or devices and analyzes the network and application protocol activity to identify suspicious activity?",
+        "choices": {
+            "A": "HIDS",
+            "B": "NIDS",
+            "C": "SIEM",
+            "D": "Antivirus"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "NIDS (Network-based Intrusion Detection System) monitors network traffic across specific segments or devices, analyzing the data packets and application protocol activity to identify suspicious behavior or potential threats. It is designed to detect intrusions and attacks at the network level. HIDS focuses on individual hosts, while SIEM aggregates data from various sources, and antivirus software targets malware detection."
+    },
+    {
+        "question": "Which of the following solutions is not used to identify threats?",
+        "choices": {
+            "A": "IDS",
+            "B": "SIEM",
+            "C": "NIDS",
+            "D": "NIPS"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "NIPS (Network-based Intrusion Prevention System) is primarily designed to actively prevent intrusions by blocking malicious traffic rather than identifying threats. While it can detect threats, its main function is to take action against them. In contrast, IDS (Intrusion Detection System), SIEM (Security Information and Event Management), and NIDS (Network-based Intrusion Detection System) are focused on identifying and analyzing threats."
+    },
+    {
+        "question": "Which cryptography algorithm uses the same secret key for its operation and if applicable for reversing the effects of operation?",
+        "choices": {
+            "A": "Symmetric",
+            "B": "Asymmetric",
+            "C": "Hash",
+            "D": "Digital Signature"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "Symmetric cryptography uses the same secret key for both encryption and decryption processes. This means that the same key is used to encrypt the data and can also be used to reverse the operation, making it essential for both parties to securely share the key. In contrast, asymmetric cryptography uses a pair of keys (public and private), while hash functions and digital signatures serve different purposes in data integrity and authentication."
+    },
+    {
+        "question": "Which process establishes and maintains a framework & supporting management structure and process to provide assurance that infosec strategies are aligned with business objectives, consistent with applicable laws and regulations through adherence to policies and internal controls, and provide assignment of responsibility, all in an effort to manage risk?",
+        "choices": {
+            "A": "Risk Management",
+            "B": "Compliance Management",
+            "C": "Security Governance",
+            "D": "Risk Assessment"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "Security governance refers to the framework and processes that ensure information security strategies align with business objectives and comply with laws and regulations. It involves establishing policies, assigning responsibilities, and managing risks effectively. While risk management focuses on identifying and mitigating risks, security governance encompasses a broader scope of aligning security with organizational goals."
+    },
+    {
+        "question": "What is the most effective physical control you would like to suggest for a data center to prevent unauthorized access?",
+        "choices": {
+            "A": "Mantrap Control configured with biometrics",
+            "B": "Only Mantrap Control",
+            "C": "Install Tailgating with Biometric",
+            "D": "Install Tailgating"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "A mantrap control configured with biometrics is the most effective physical control for a data center as it provides a secure entry point that requires individuals to authenticate their identity before gaining access. This dual-layered approach prevents unauthorized access and tailgating, ensuring that only authorized personnel can enter the sensitive area."
+    },
+    {
+        "question": "Suman is a part of the legal team, they wish to protect the brand name and goodwill of the company. Recently some other company used their brand name to sell products and services in the market. What is the most important action you will recommend to Prabh to take to protect the brand?",
+        "choices": {
+            "A": "Filed Patent",
+            "B": "Filed for trademark",
+            "C": "Filed for copyright",
+            "D": "Filed for trade secret"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "Filing for a trademark is the most important action to protect the brand name and goodwill of the company. Trademarks safeguard brand names and logos used on goods and services, preventing others from using similar identifiers that could confuse consumers. Patents protect inventions, copyrights protect creative expressions, and trade secrets protect confidential business information, but none of these specifically address brand name protection as effectively as trademarks."
+    },
+    {
+        "question": "Prabh recently joined a security consultant position in a healthcare company in the US. The company collects and processes healthcare data for further analysis. Which of the following primary regulations compliance must they achieve?",
+        "choices": {
+            "A": "HIPAA",
+            "B": "PCIDSS",
+            "C": "FEDRAMP",
+            "D": "ISO 27001"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "HIPAA (Health Insurance Portability and Accountability Act) is the primary regulation that healthcare companies in the US must comply with when collecting and processing healthcare data. It establishes standards for protecting sensitive patient information and ensuring privacy. PCI DSS pertains to payment card data, FEDRAMP is for cloud services used by federal agencies, and ISO 27001 is an international standard for information security management systems."
+    },
+    {
+        "question": "Aspirants technology solutions leaders in digital payment services. They have already obtained PCI DSS Certification. By increasing the number of transactions, they moved from on-premises to a cloud provider for IaaS service. In this scenario, who must be taking accountability for PCI DSS accreditation?",
+        "choices": {
+            "A": "Cloud Provider",
+            "B": "Cloud Customer",
+            "C": "Data Subject",
+            "D": "Regulator"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "In this scenario, the cloud customer is accountable for PCI DSS accreditation. While the cloud provider must ensure that their infrastructure is compliant, the responsibility for maintaining compliance with PCI DSS standards lies with the customer, who must ensure that their applications and data handling practices meet the requirements. This shared responsibility model is crucial in cloud environments."
+    },
+    {
+        "question": "Before migrating applications or data to a cloud computing environment, which is the most critical requirement to review?",
+        "choices": {
+            "A": "Laws or regulations that apply and the relevant duties or obligations imposed on both the customer and provider",
+            "B": "Laws or regulations that apply and the relevant duties or obligations imposed on the customer",
+            "C": "Laws or regulations that apply and the relevant duties or obligations imposed on the provider",
+            "D": "Which certification is most appropriate depends to some extent on the category of the cloud service and on the customer's regional and industry requirement"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "It is crucial to review the laws and regulations that apply to both the customer and the cloud service provider before migrating to a cloud environment. This ensures compliance with legal obligations and helps identify responsibilities related to data protection, privacy, and security. Understanding the shared responsibilities is essential for mitigating risks associated with cloud services."
+    },
+    {
+        "question": "An org needs to implement a security solution that can monitor its environment for signs of malicious activity and report any suspicious activities to admins. Which of the following solutions is best suited for this purpose?",
+        "choices": {
+            "A": "IDS [Intrusion Detection System]",
+            "B": "IPS [Intrusion Prevention System]",
+            "C": "Firewall",
+            "D": "DLP [Data Loss Prevention]"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "An Intrusion Detection System (IDS) is designed to monitor network traffic for signs of malicious activity and alert administrators to potential threats. It analyzes traffic patterns and can identify suspicious activities, making it suitable for the organization's needs. In contrast, an IPS actively blocks threats, while firewalls primarily focus on preventing unauthorized access, and DLP is aimed at preventing data loss."
+    },
+    {
+        "question": "An org is planning to enhance its network security by deploying a firewall. To ensure optimal protection, the firewall should be placed in a strategic location within the network infrastructure. Which of the following is the ideal location for the firewall?",
+        "choices": {
+            "A": "Inside the internal network, protecting against internal threats",
+            "B": "Between the org's routers and the internet",
+            "C": "Directly on end user device to monitor all traffic",
+            "D": "Within the sender farm to protect critical servers"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "The ideal location for a firewall is between the organization's routers and the internet. This placement allows the firewall to monitor and control incoming and outgoing traffic, providing a barrier against external threats before they can reach the internal network. Other placements, such as inside the network or on end-user devices, do not provide the same level of protection against external attacks."
+    },
+    {
+        "question": "An org is in the process of establishing a relationship with a new vendor and wants to ensure that the vendor meets specific service quality expectations. These requirements should address any concerns the org has about the quality of service provided by the vendor. Which of the following documents best provides the org's expectations of the vendor during the relationship?",
+        "choices": {
+            "A": "SLA [Service Level Agreement]",
+            "B": "MOU [Memorandum of Understanding]",
+            "C": "Policy",
+            "D": "Data Classification"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "A Service Level Agreement (SLA) outlines the expected level of service between the organization and the vendor, including specific performance metrics, responsibilities, and quality expectations. This document is essential for ensuring that both parties have a clear understanding of the service standards required during the relationship. An MOU is more informal, while policies and data classification do not specifically address service quality."
+    },
+    {
+        "question": "Malicious traffic from an internal network has been detected on an unauthorized port on an application server. Which of the following network-based security controls should the engineer consider implementing?",
+        "choices": {
+            "A": "ACLs [Access Control Lists on firewall]",
+            "B": "HIPS [Host Intrusion Prevention System]",
+            "C": "NAT [Network Address Translation]",
+            "D": "MAC filtering"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "Implementing Access Control Lists (ACLs) on the firewall is an effective way to control and restrict traffic to and from the application server. ACLs can be configured to block unauthorized access attempts and limit traffic to specific ports, thereby enhancing security. HIPS focuses on host-level protection, NAT is used for IP address translation, and MAC filtering is less effective in this context."
+    },
+    {
+        "question": "Which statement is true about a Disaster Recovery (DR) plan?",
+        "choices": {
+            "A": "Establishes procedures to address cyber attacks against an org's information systems",
+            "B": "Documentation of a predetermined set of instructions or procedures that describes how an org's mission/business process will be sustained during & after a significant disruption",
+            "C": "Process of analyzing operational functions & the effect that a disruption might have on them",
+            "D": "Written plan for recovering one or more information systems at an alternate facility in response to a major hardware or software failure or destruction of facilities"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "A Disaster Recovery (DR) plan is a documentation of predetermined instructions or procedures that outlines how an organization will sustain its mission and business processes during and after a significant disruption. This includes strategies for maintaining operations, recovering data, and restoring services, ensuring that the organization can continue to function despite adverse events."
+    },
+    {
+        "question": "In an org's security framework, various documents outline policies, procedures, and guidelines. Which of the following documents contains elements that are not mandatory?",
+        "choices": {
+            "A": "Policy",
+            "B": "Standards",
+            "C": "Guideline",
+            "D": "Procedure"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "Guidelines are recommendations that provide guidance on how to achieve certain objectives but are not mandatory. Policies are mandatory rules, standards are specific requirements that must be met, and procedures are step-by-step instructions that must be followed. Therefore, guidelines are the only option that contains non-mandatory elements."
+    },
+    {
+        "question": "Digital signatures are widely used to ensure various security properties in electronic communication and documents. Which of the following properties is not provided by digital signatures?",
+        "choices": {
+            "A": "Integrity",
+            "B": "Non-repudiation",
+            "C": "Confidentiality",
+            "D": "Authentication"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "Digital signatures provide integrity (ensuring the message has not been altered), non-repudiation (the sender cannot deny sending the message), and authentication (verifying the sender's identity). However, they do not provide confidentiality, which is the protection of information from unauthorized access. Confidentiality is typically achieved through encryption."
+    },
+    {
+        "question": "An org's IT department notices that several critical systems have become inaccessible and are displaying messages demanding a specific action to regain access. The employees are unable to access their files, and the IT staff confirms that the data on these devices is encrypted. Which type of attack is most likely responsible for this situation?",
+        "choices": {
+            "A": "Phishing",
+            "B": "Denial-of-service",
+            "C": "Ransomware",
+            "D": "MitM [Man-in-the-Middle]"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "Ransomware is a type of malware that encrypts files on a victim's system and demands payment to restore access. The symptoms described\u2014messages demanding action to regain access and encrypted data\u2014are characteristic of a ransomware attack. Phishing is a method to gain access, denial-of-service disrupts service, and MitM involves intercepting communications, none of which fit the scenario."
+    },
+    {
+        "question": "Which of the following is the best metric to measure security awareness training effectiveness in the org?",
+        "choices": {
+            "A": "Increase in incident reports",
+            "B": "Increase in security violations",
+            "C": "Decrease in incident reports",
+            "D": "Number of password requests"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "A decrease in incident reports indicates that employees are applying what they learned in security awareness training, leading to fewer security incidents. An increase in incident reports or violations suggests that training may not be effective, and the number of password requests does not directly measure awareness."
+    },
+    {
+        "question": "What is the primary objective of security awareness training?",
+        "choices": {
+            "A": "To inform users of the latest attacks",
+            "B": "To meet regulatory requirements",
+            "C": "To meet policy requirements",
+            "D": "To notify employees of information security responsibilities"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "The primary goal of security awareness training is to ensure that employees understand their responsibilities regarding information security, which helps to create a security-conscious culture. While informing users of attacks and meeting requirements are important, they are secondary to the core objective of fostering responsibility."
+    },
+    {
+        "question": "Which of the following actions would most effectively address the concern by communicating how the org handles personal data?",
+        "choices": {
+            "A": "Implementing strong encryption for all user data stored on the company's servers",
+            "B": "Conduct a thorough security risk assessment of the new location sharing feature",
+            "C": "Updating the company's terms of service to include details about location data collection",
+            "D": "Developing a comprehensive privacy policy that outlines the collection, use, and storage practices for location data"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "A comprehensive privacy policy directly communicates to users how their personal data is handled, which is essential for transparency and trust. While encryption and risk assessments are important for security, they do not communicate data handling practices. Updating terms of service is also helpful but may not be as comprehensive as a dedicated privacy policy."
+    }
+]

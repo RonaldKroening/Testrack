@@ -1,0 +1,6 @@
+{
+    "name": "AWS Certified Cloud Practitioner",
+    "description":"Provides an overall understanding of AWS Cloud to validate your knowledge with an industry-recognized credential. This exam is intended for individuals who have the knowledge and skills necessary to effectively demonstrate an overall understanding of the AWS Cloud, independent of specific technical roles addressed by other AWS Certifications.",
+    "logo": " https://d1.awsstatic.com/training-and-certification/certification/specialty/Exam_Icon_AWS_Certified_Cloud_Practitioner_300x300.7b3b71b3.png",
+    "topics": ["Cloud Concepts", "Security", "Technology", "Billing and Pricing", "Support and Services"]
+}

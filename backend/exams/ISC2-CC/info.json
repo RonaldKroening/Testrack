@@ -1,0 +1,13 @@
+{
+    "name": "ISC2 Certified in Cybersecurity",
+    "description":"Certified in",
+    "logo": "ISC2-CC.png",
+    "topics": [
+        "Security and Risk Management",
+        "Security Architecture and Engineering",
+        "Communication and Network Security",
+        "Identity and Access Management (IAM)",
+        "Security Assessment and Testing",
+        "Security Operations"
+    ]
+}

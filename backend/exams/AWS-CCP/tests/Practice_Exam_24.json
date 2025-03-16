@@ -1,0 +1,55 @@
+[
+    {
+        "question": "1. Which of the following components of the AWS Global Infrastructure consists of one or more discrete data centers interconnected through low latency links?",
+        "choices": {
+            "A": "Availability Zone",
+            "B": "Edge location",
+            "C": "Region",
+            "D": "Private networking"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": ""
+    },
+    {
+        "question": "2. One benefit of On-Demand Amazon Elastic Compute Cloud (Amazon EC2) pricing is:",
+        "choices": {
+            "A": "The ability to bid for a lower hourly cost.",
+            "B": "Paying a daily rate regardless of time used.",
+            "C": "Paying only for time used.",
+            "D": "Pre-paying for instances and paying a lower hourly rate."
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": ""
+    },
+    {
+        "question": "3. What can assist in evaluating an application for migration to the cloud? (Select TWO)",
+        "choices": {
+            "A": "AWS Trusted Advisor.",
+            "B": "AWS Professional Services.",
+            "C": "AWS Systems Manager.",
+            "D": "AWS Partner Network (APN).",
+            "E": "AWS Secrets Manager."
+        },
+        "answer": [
+            "B","D"
+        ],
+        "explanation": ""
+    },
+    {
+        "question": "4. A characteristic of edge locations is that they:",
+        "choices": {
+            "A": "Host Amazon EC2 instances closer to users.",
+            "B": "Help lower latency and improve performance for users.",
+            "C": "Cache frequently changing data without reaching the origin server.",
+            "D": "Refresh data changes daily."
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": ""
+    }
+]

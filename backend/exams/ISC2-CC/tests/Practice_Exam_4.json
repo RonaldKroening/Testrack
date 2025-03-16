@@ -1,0 +1,535 @@
+[
+    {
+        "question": "Which phase of the disaster recovery plan involves the restoration of normal operations?",
+        "choices": {
+            "A": "Response",
+            "B": "Recovery",
+            "C": "Mitigation",
+            "D": "Business Impact Analysis (BIA)"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "The recovery phase of the disaster recovery plan involves actions taken to restore normal business operations after the immediate effects of a disaster have been managed. The response phase deals with immediate actions, mitigation focuses on reducing risks, and BIA is a planning tool."
+    },
+    {
+        "question": "What is the purpose of conducting a Business Impact Analysis (BIA)?",
+        "choices": {
+            "A": "To assess the security posture of an organization",
+            "B": "To determine the impact of disruptions on business operations",
+            "C": "To identify potential security threats",
+            "D": "To develop security policies"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "A Business Impact Analysis (BIA) helps identify critical business functions and the impact that disruptions could have on these functions. It aids in prioritizing recovery efforts and resources. The other options are related but do not specifically address the BIA's primary purpose of assessing business operations."
+    },
+    {
+        "question": "Which of the following is a primary component of an incident response plan?",
+        "choices": {
+            "A": "Risk assessment",
+            "B": "Communication procedures",
+            "C": "Security policy development",
+            "D": "Physical security measures"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "Incident response plans include communication procedures to ensure prompt and accurate information dissemination to relevant stakeholders during and after an incident. While risk assessment and security policy development are important, they are not primary components of an incident response plan."
+    },
+    {
+        "question": "What is the main purpose of disaster recovery testing?",
+        "choices": {
+            "A": "To ensure compliance with regulations",
+            "B": "To validate the effectiveness of the disaster recovery plan",
+            "C": "To train employees on security policies",
+            "D": "To identify potential threats to the organization"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "Disaster recovery testing is conducted to verify that the disaster recovery plan works as intended and can restore critical functions and data within the required timeframes. The other options are important but do not specifically address the purpose of testing the recovery plan."
+    },
+    {
+        "question": "Which access control model is based on the classification of information and clearance levels of users?",
+        "choices": {
+            "A": "Role-Based Access Control (RBAC)",
+            "B": "Discretionary Access Control (DAC)",
+            "C": "Mandatory Access Control (MAC)",
+            "D": "Attribute-Based Access Control (ABAC)"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "Mandatory Access Control (MAC) is an access control model where access rights are assigned based on the classification of information and the clearance level of the user. It is commonly used in environments requiring high security, such as military and government systems. The other models provide different levels of flexibility and user control."
+    },
+    {
+        "question": "What is the primary purpose of the principle of separation of duties?",
+        "choices": {
+            "A": "To reduce the risk of errors and fraud",
+            "B": "To enforce strong password policies",
+            "C": "To limit access to sensitive information",
+            "D": "To ensure data availability"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "Separation of duties divides responsibilities among multiple people to prevent fraud and errors by ensuring that no single individual has control over all aspects of any critical function. The other options are important but do not capture the primary goal of this principle."
+    },
+    {
+        "question": "Which access control model permits data owners to decide who can access their resources?",
+        "choices": {
+            "A": "Role-Based Access Control (RBAC)",
+            "B": "Discretionary Access Control (DAC)",
+            "C": "Mandatory Access Control (MAC)",
+            "D": "Attribute-Based Access Control (ABAC)"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "In Discretionary Access Control (DAC), the data owners have the discretion to assign access permissions to their resources. This model provides flexibility but also requires careful management to prevent unauthorized access. The other models have more rigid structures for access control."
+    },
+    {
+        "question": "What is an example of preventive access control?",
+        "choices": {
+            "A": "Audit logs",
+            "B": "Security training",
+            "C": "Intrusion detection systems",
+            "D": "Firewalls"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "Preventive access controls are measures designed to prevent security incidents from occurring. Firewalls are an example of preventive controls as they block unauthorized access to networks. The other options are either detective or administrative controls."
+    },
+    {
+        "question": "Which of the following best describes the concept of least privilege?",
+        "choices": {
+            "A": "Providing users with minimal access rights",
+            "B": "Allowing temporary access to resources",
+            "C": "Rotating user roles periodically",
+            "D": "Implementing strong authentication mechanisms"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "Least privilege grants users minimal access needed for their jobs, reducing risks of unauthorized access and resource misuse. The other options do not focus on minimizing access rights."
+    },
+    {
+        "question": "What is the main advantage of using Single Sign-On (SSO)?",
+        "choices": {
+            "A": "It requires multiple passwords for increased security",
+            "B": "It simplifies user authentication by allowing access to multiple applications with one set of credentials",
+            "C": "It provides a higher level of encryption for data",
+            "D": "It ensures that users have minimal access rights"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "Single Sign-On (SSO) allows users to log in once and access multiple systems, enhancing convenience and simplifying password management. The other options either misrepresent SSO's purpose or focus on aspects that are not its primary advantage."
+    },
+    {
+        "question": "Which device is primarily used to filter and monitor network traffic, both incoming and outgoing, according to predefined security rules?",
+        "choices": {
+            "A": "Router",
+            "B": "Switch",
+            "C": "Firewall",
+            "D": "Hub"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "A firewall filters and monitors traffic between different parts of a network based on an organization\u2019s previously established security policies. Routers direct traffic, switches connect devices within a network, and hubs are basic devices that do not filter traffic."
+    },
+    {
+        "question": "What is the primary function of a Virtual Private Network (VPN)?",
+        "choices": {
+            "A": "To increase internet speed",
+            "B": "To provide secure remote access to a network",
+            "C": "To monitor network traffic",
+            "D": "To detect malware"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "A VPN provides a secure, encrypted connection over the internet, enabling remote users to safely access the organization\u2019s network. The other options do not accurately describe the primary function of a VPN."
+    },
+    {
+        "question": "Which of the following is a common method for preventing DDoS attacks?",
+        "choices": {
+            "A": "Implementing strong passwords",
+            "B": "Using intrusion detection systems (IDS)",
+            "C": "Employing network firewalls",
+            "D": "Deploying rate limiting and traffic analysis"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "Rate limiting and traffic analysis help to identify and mitigate DDoS attacks by controlling network traffic and detecting unusual patterns. The other options are important security measures but do not specifically address DDoS prevention."
+    },
+    {
+        "question": "What type of attack involves intercepting and possibly modifying communication between two parties without their awareness?",
+        "choices": {
+            "A": "Phishing",
+            "B": "Man-in-the-Middle (MitM)",
+            "C": "Denial of Service (DoS)",
+            "D": "SQL Injection"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "A MitM attack occurs when an attacker intercepts and can modify communication between two parties, compromising data confidentiality and integrity without their knowledge. The other options describe different types of attacks that do not involve interception of communication."
+    },
+    {
+        "question": "What security measure is used to detect and prevent unauthorized access to a private network?",
+        "choices": {
+            "A": "Antivirus software",
+            "B": "Network Intrusion Detection System (NIDS)",
+            "C": "Web proxy",
+            "D": "Data Loss Prevention (DLP) software"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "A NIDS monitors network traffic for suspicious activity and threats, providing alerts to administrators about possible security breaches. The other options serve different purposes in security management."
+    },
+    {
+        "question": "What is the primary goal of security operations within an organization?",
+        "choices": {
+            "A": "To ensure compliance with legal requirements",
+            "B": "To detect, respond to, and recover from security incidents",
+            "C": "To develop security policies",
+            "D": "To conduct security training for employees"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "The primary goal of security operations is to manage and monitor systems and responses, protect organizational assets from threats, and effectively handle incidents. The other options are important but do not encompass the full scope of security operations."
+    },
+    {
+        "question": "Which of the following is a key activity in security operations to maintain the integrity of systems?",
+        "choices": {
+            "A": "Implementing access controls",
+            "B": "Performing regular backups",
+            "C": "Conducting security audits",
+            "D": "Monitoring network traffic"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "Security audits review and evaluate security measures and practices to ensure effectiveness and compliance with policies and regulations. The other options are also important activities but do not specifically focus on maintaining system integrity."
+    },
+    {
+        "question": "What type of system is designed to automatically detect and respond to potential security threats?",
+        "choices": {
+            "A": "Antivirus software",
+            "B": "Security Information and Event Management (SIEM) system",
+            "C": "Data Loss Prevention (DLP) system",
+            "D": "Public Key Infrastructure (PKI)"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "A SIEM system aggregates and analyzes security data from various sources in real-time, providing automated detection and response to potential security threats. The other options serve different functions: antivirus software focuses on malware detection, DLP systems prevent data loss, and PKI is used for managing digital certificates."
+    },
+    {
+        "question": "Which of the following best describes a security incident?",
+        "choices": {
+            "A": "An attempt to compromise system security",
+            "B": "A successful breach of a network",
+            "C": "Any event that threatens the security of an information system",
+            "D": "A report of a phishing email"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "A security incident refers to any event that poses a threat to the integrity, confidentiality, or availability of an information system, requiring appropriate response measures. The other options describe specific types of incidents but do not encompass the broader definition."
+    },
+    {
+        "question": "What is the purpose of a Security Operations Center (SOC)?",
+        "choices": {
+            "A": "To provide end-user technical support",
+            "B": "To manage and monitor security threats and incidents",
+            "C": "To develop security policies",
+            "D": "To conduct security training for employees"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "A Security Operations Center (SOC) is a centralized team that handles security issues, monitoring, detecting, and addressing incidents to ensure continuous protection of information assets. The other options describe functions that are not the primary focus of a SOC."
+    },
+    {
+        "question": "Which process involves identifying, assessing, and mitigating risks to an organization\u2019s information systems?",
+        "choices": {
+            "A": "Vulnerability scanning",
+            "B": "Incident response",
+            "C": "Risk management",
+            "D": "Penetration testing"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "Risk management involves identifying potential risks to an organization\u2019s information systems, assessing their likelihood and impact, and implementing security measures to mitigate or manage those risks effectively. The other options are specific security practices that do not encompass the overall process of risk management."
+    },
+    {
+        "question": "Which of the following is a true statement of Software as a Service (SaaS)?",
+        "choices": {
+            "A": "Capability for Customers to use the Provider's applications running on a cloud infrastructure. The applications are accessible from various devices through either a thin client interface, such as a web browser, or a program interface.",
+            "B": "Capability for Provider to use the Customer applications running on a cloud infrastructure. The applications are accessible from various devices through either a thin client interface, such as a web browser, or a program interface.",
+            "C": "Capability for Provider to use the Regulated applications running on a cloud infrastructure. The applications are accessible from various devices through either a thin client interface, such as a web browser, or a program interface.",
+            "D": "Capability for Customers to deploy their applications (created or acquired) onto the cloud infrastructure, using programming languages, libraries, services and tools supported by the Provider."
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "SaaS allows customers to access and use applications hosted by a provider over the internet, typically through a web browser. The other options incorrectly describe the roles of customers and providers in the SaaS model."
+    },
+    {
+        "question": "Which of the following is a true statement regarding Infrastructure as a Service (IaaS)?",
+        "choices": {
+            "A": "Capability for Customers to utilize the Provider's processing, storage, networks and other fundamental computing resources to deploy and run operating systems, applications and other software on a cloud infrastructure.",
+            "B": "Capability for Customers to deploy their applications (created or acquired) onto the cloud infrastructure, using programming languages, libraries, services and tools supported by the Provider.",
+            "C": "Capability for Customers to use the Provider's applications running on a cloud infrastructure. The applications are accessible from various devices through either a thin client interface, such as a web browser, or a program interface.",
+            "D": "Capability for Provider to utilize the Client processing, storage, networks and other fundamental computing resources to deploy and run operating systems, applications, and other software on a cloud infrastructure."
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "IaaS provides customers with virtualized computing resources over the internet, allowing them to deploy and manage their own operating systems and applications. The other options misrepresent the roles and capabilities associated with IaaS."
+    },
+    {
+        "question": "Which type of cloud deployment requires data standard, portability and integration?",
+        "choices": {
+            "A": "Hybrid cloud",
+            "B": "Public Cloud",
+            "C": "Private Cloud",
+            "D": "Community Cloud"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "A hybrid cloud deployment combines public and private clouds, allowing for data portability and integration between different environments. The other options do not inherently focus on the need for data standardization and integration."
+    },
+    {
+        "question": "Azpirantz LLP establishes a corporate infrastructure and develops a customer-facing web application by utilizing several SaaS and IaaS platforms. Which of the following solutions would be BEST for providing platform monitoring and visibility?",
+        "choices": {
+            "A": "SIEM",
+            "B": "CASB (Cloud Access Security Broker)",
+            "C": "Firewall",
+            "D": "Vulnerability scanner"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "A Cloud Access Security Broker (CASB) is a security intermediary that enforces enterprise security policies when cloud-based resources are accessed. CASBs help protect cloud-hosted services from cyber attacks and data leaks, offering various security technologies such as shadow IT discovery, access control, and data loss prevention (DLP). They are crucial for extending an organization's security policy to cover cloud resources. The other options serve different purposes and do not provide the same level of visibility and monitoring for cloud environments."
+    },
+    {
+        "question": "Which of the following types of attack is being used when an attacker responds by sending the MAC address of the attacking machine to resolve the MAC to IP address of a valid server?",
+        "choices": {
+            "A": "Session hijacking",
+            "B": "IP spoofing",
+            "C": "Evil twin",
+            "D": "ARP poisoning"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "ARP poisoning, also known as ARP spoofing, is an attack where an attacker sends falsified ARP (Address Resolution Protocol) messages over a local area network. This allows the attacker to associate their MAC address with the IP address of a legitimate server, effectively redirecting traffic intended for that server to the attacker's machine. Session hijacking involves taking over a user's session after authentication, IP spoofing refers to sending IP packets from a false (or 'spoofed') source address, and an evil twin attack involves setting up a rogue Wi-Fi access point that mimics a legitimate one to intercept data. None of these options involve the specific manipulation of MAC addresses in the way ARP poisoning does."
+    },
+    {
+        "question": "Which of the following BEST describes an attack where communications between two parties are intercepted and forwarded to each party with neither party being aware of the interception and potential modification to the communications?",
+        "choices": {
+            "A": "Spear phishing",
+            "B": "Man-in-the-middle",
+            "C": "URL hijacking",
+            "D": "Transitive access"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "A man-in-the-middle (MitM) attack occurs when an attacker intercepts and relays messages between two parties who believe they are directly communicating with each other. This type of attack can allow the attacker to eavesdrop on the conversation and potentially alter the messages without either party being aware. Spear phishing is a targeted phishing attack aimed at a specific individual or organization, URL hijacking involves redirecting users from a legitimate website to a malicious one, and transitive access refers to unauthorized access gained through a trusted relationship, none of which accurately describe the interception of communications."
+    },
+    {
+        "question": "Which of the following attacks can be used to exploit a vulnerability that untrained users created?",
+        "choices": {
+            "A": "Spear-phishing email with a file attachment",
+            "B": "DNS Poisoning",
+            "C": "Man-in-the-middle attack",
+            "D": "A domain hijacking of a bank website"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "Spear-phishing attacks are highly targeted emails sent to individuals, often containing malicious attachments or links, designed to trick the recipient into revealing sensitive information or downloading malware. These attacks exploit the vulnerabilities created by untrained users who may not recognize the signs of phishing. DNS poisoning involves corrupting the DNS cache to redirect users, a man-in-the-middle attack intercepts communications, and domain hijacking involves taking control of a domain name, none of which directly exploit user vulnerabilities in the same way as spear-phishing."
+    },
+    {
+        "question": "Which of the following attacks involves attackers encrypting an organization's data and demanding payment to restore access?",
+        "choices": {
+            "A": "DOS Attack",
+            "B": "Ransomware Attack",
+            "C": "Sniffing Attack",
+            "D": "Monitoring Attack"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "A ransomware attack is a type of malicious software that encrypts an organization's data, rendering it inaccessible until a ransom is paid to the attacker. This attack specifically targets data and demands payment for decryption. A DOS (Denial of Service) attack aims to make a service unavailable, a sniffing attack involves capturing network traffic to gather information, and a monitoring attack typically refers to unauthorized surveillance of communications, none of which involve the encryption of data for ransom."
+    },
+    {
+        "question": "What type of cryptosystem is Raju using whereby data being encrypted by the sender using the recipient's public key, and the data then being decrypted using the recipient's private key?",
+        "choices": {
+            "A": "With public-key encryption, or symmetric encryption",
+            "B": "With public-key encryption, or asymmetric encryption",
+            "C": "With shared-key encryption, or symmetric encryption",
+            "D": "With shared-key encryption, or asymmetric encryption"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "Public-key encryption, also known as asymmetric encryption, uses a pair of keys: a public key for encryption and a private key for decryption. This method allows secure communication without needing to share a secret key. The other options incorrectly refer to symmetric encryption, which uses the same key for both encryption and decryption."
+    },
+    {
+        "question": "Which of the following is a Major problem with symmetric key encryption?",
+        "choices": {
+            "A": "It is slower than asymmetric key encryption.",
+            "B": "Algorithms are kept the proprietary standard",
+            "C": "Secure sharing of the secret key.",
+            "D": "Work factor is not mapped with key size."
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "The major problem with symmetric key encryption is the challenge of securely sharing the secret key between parties. If the key is intercepted, the security of the communication is compromised. The other options do not accurately represent the primary issues associated with symmetric encryption."
+    },
+    {
+        "question": "Which key is used to create a digital signature?",
+        "choices": {
+            "A": "The receiver's private key",
+            "B": "The sender's public key",
+            "C": "The sender's private key",
+            "D": "The receiver's public key"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "A digital signature is created using the sender's private key, which ensures that only the sender can generate the signature. This allows the recipient to verify the signature using the sender's public key. The other options are incorrect as they do not align with the principles of digital signatures."
+    },
+    {
+        "question": "Prabh is sending Rakesh an encrypted message using a symmetric encryption algorithm. What key should he use to encrypt the message?",
+        "choices": {
+            "A": "Prabh public key",
+            "B": "Prabh private key",
+            "C": "Rakesh public key",
+            "D": "Shared secret key"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "In symmetric encryption, both parties use the same shared secret key for both encryption and decryption. The other options are incorrect because they refer to asymmetric encryption keys, which are not applicable in this context."
+    },
+    {
+        "question": "Which of the following is considered to be a more secure hashing algorithm?",
+        "choices": {
+            "A": "MD 5",
+            "B": "SHA",
+            "C": "AES",
+            "D": "RSA"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "SHA (Secure Hash Algorithm) is considered more secure than MD5, which has known vulnerabilities. AES and RSA are encryption algorithms, not hashing algorithms, making them irrelevant to the question."
+    },
+    {
+        "question": "From an information security perspective, information that no longer supports the main purpose of the business should be?",
+        "choices": {
+            "A": "Protect under the Risk Assessment",
+            "B": "Review under the retention policy.",
+            "C": "Review under access policy",
+            "D": "Review under classification policy"
+        },
+        "answer": [
+            "B"
+        ],
+        "explanation": "Information that is no longer needed should be reviewed under the retention policy to determine if it should be retained or disposed of. The other options do not specifically address the need to manage information that is no longer relevant to business operations."
+    },
+    {
+        "question": "Making an organizational culture that prioritizes information security starts with:",
+        "choices": {
+            "A": "Implement stronger controls.",
+            "B": "Conduct periodic awareness training.",
+            "C": "Actively monitor operations.",
+            "D": "Gain the endorsement of executive management"
+        },
+        "answer": [
+            "D"
+        ],
+        "explanation": "Gaining the endorsement of executive management is crucial for establishing a culture of information security, as it ensures that security initiatives receive the necessary support and resources. The other options are important but are secondary to securing executive buy-in."
+    },
+    {
+        "question": "Which of the following is the MOST effective way to mitigate Phishing attack in Enterprise?",
+        "choices": {
+            "A": "Installing AV",
+            "B": "Installing MFA",
+            "C": "Improve User Awareness",
+            "D": "Encryption"
+        },
+        "answer": [
+            "C"
+        ],
+        "explanation": "Improving user awareness is the most effective way to mitigate phishing attacks, as it empowers employees to recognize and avoid phishing attempts. While MFA and antivirus software can help, they are not as effective as educating users about the risks and signs of phishing."
+    },
+    {
+        "question": "Which of the following is MOST effective at preventing the introduction of code modifications that could compromise the security of a mission-critical business application?",
+        "choices": {
+            "A": "Change management",
+            "B": "Patch Management",
+            "C": "Incident Management",
+            "D": "Release Management"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "Change management processes are designed to control and document changes to systems and applications, ensuring that any modifications are reviewed and approved to prevent unauthorized changes. The other options focus on different aspects of security and maintenance but do not specifically address the prevention of unauthorized code modifications."
+    },
+    {
+        "question": "Which of the following is the most important to consider while protecting the assets?",
+        "choices": {
+            "A": "Value and Risk",
+            "B": "Security and Risk",
+            "C": "Market and Reputation",
+            "D": "Vulnerabilities vs Risk"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "Understanding the value of assets and the associated risks is crucial for effective protection strategies. This helps prioritize security efforts based on the potential impact of loss or compromise. The other options are important but do not directly address the fundamental relationship between asset value and risk."
+    },
+    {
+        "question": "Which of the following is the MOST critical for Patch Management, Configuration Management, Risk Management with overall security posture for an enterprise?",
+        "choices": {
+            "A": "Inventories",
+            "B": "Incident Management",
+            "C": "Identity and Access",
+            "D": "Strong Authentication"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "Maintaining accurate inventories of assets is critical for effective patch management, configuration management, and risk management. Without a clear understanding of what assets exist, it is impossible to manage them effectively. The other options are important components of security but rely on having a comprehensive inventory."
+    },
+    {
+        "question": "What is the MOST effective practice by which we maintain system integrity throughout the organization in a dynamic environment?",
+        "choices": {
+            "A": "Change management",
+            "B": "Incident management",
+            "C": "Patch management",
+            "D": "Release Management"
+        },
+        "answer": [
+            "A"
+        ],
+        "explanation": "Change management is essential for maintaining system integrity as it ensures that all changes are systematically planned, reviewed, and documented. This helps prevent unauthorized changes that could compromise system integrity. The other options are important for specific aspects of system management but do not provide the overarching control that change management does."
+    }
+]
