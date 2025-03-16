@@ -7,27 +7,27 @@ import os
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 app = FastAPI()
-# Add CORS middleware
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Allow requests from this origin
+    allow_origins=["http://localhost:3000"],  
     allow_credentials=True,
-    allow_methods=["*"],  # Allow all HTTP methods
-    allow_headers=["*"],  # Allow all headers
+    allow_methods=["*"],  
+    allow_headers=["*"],  
 )
 
-# Database connection function
+
 def get_db_connection():
     conn = sqlite3.connect("database.db")
     conn.row_factory = sqlite3.Row
     return conn
 
-# Function to fetch data from SQLite table
+
 @app.get("/get_tests")
 def get_tests():
     conn = get_db_connection()
     cursor = conn.cursor()
-    cursor.execute("SELECT name, exam_type, number_of_questions FROM tests")  # Replace 'your_table_name' with the actual table name
+    cursor.execute("SELECT name, exam_type, number_of_questions FROM tests")  
     rows = cursor.fetchall()
     
     cursor.execute("SELECT id FROM tests") 
@@ -100,7 +100,7 @@ def add_attempt(username: str, exam_id: int, score: int):
 
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
-    # Example: Verify password using bcrypt
+    
     return bcrypt.checkpw(plain_password.encode(), hashed_password.encode())
 
 @app.post("/validate/{username}/{password}/{status}")
